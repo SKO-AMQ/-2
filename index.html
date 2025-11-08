@@ -161,17 +161,40 @@
     </div>
   </div>
 
-  <script>
-    const DATA = {
-      associate: {
-        label: "Associate diploma",
-        subjects: {}
+const DATA = {
+  associate: {
+    label: "Associate diploma",
+    subjects: {
+      cooling: {
+        name: "Cooling",
+        questions: [
+          {
+            title: "Cooling",
+            text: "Best way to transfer heat from cylinder barrel?",
+            choices: [
+              { text: "Machine fins directly on the barrel", correct: true },
+              { text: "Paint the barrel", correct: false },
+              { text: "Wrap with plastic", correct: false },
+            ],
+          },
+          {
+            title: "Cooling",
+            text: "Why are cylinder fins closely spaced?",
+            choices: [
+              { text: "To increase surface area", correct: true },
+              { text: "Decoration only", correct: false },
+              { text: "To trap dirt", correct: false },
+            ],
+          },
+        ],
       },
-      diploma: {
-        label: "Diploma",
-        subjects: {}
-      },
-    };
+    },
+  },
+  diploma: {
+    label: "Diploma",
+    subjects: {},
+  },
+};
 
     // نحط مادة وحدة تجريبية عشان ما يتعلق
     DATA.associate.subjects["cooling"] = {
