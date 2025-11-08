@@ -93,9 +93,9 @@ is on board and displayed at the cabin or cockpit entrance and is transferred wi
 
 
 With regard to Light Sport Aircraft (LSA) who may carry out Inspection, Repair, and Alterations?
-1. LSA Repairman
-2. A&P
-3. Repair Station
+. LSA Repairman
+. A&P
+. Repair Station
 
 1 and 2 only
 1 only
@@ -357,3 +357,4 @@ Which is an appliance major repair?
 Overhaul of a hydraulic pressure pump ✅
 Repairs to a propeller governor or its control.
 Troubleshooting and repairing broken circuits in landing light circuits
+=
